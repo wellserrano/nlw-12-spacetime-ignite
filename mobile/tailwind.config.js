@@ -2,6 +2,7 @@
 module.exports = {
   content: ['./App.tsx', './app/**/*.tsx'],
   theme: {
+<<<<<<< HEAD
     extend: {
       fontFamily: {
         title: 'Roboto_700Bold',
@@ -48,6 +49,9 @@ module.exports = {
         },
       },
     },
+=======
+    extend: {},
+>>>>>>> 7a56d27 (Aula 01)
   },
   plugins: [],
 }

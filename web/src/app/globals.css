@@ -1,8 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
 
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+=======
+>>>>>>> 7a56d27 (Aula 01)
