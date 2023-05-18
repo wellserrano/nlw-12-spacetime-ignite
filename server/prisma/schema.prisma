@@ -8,7 +8,6 @@ datasource db {
 }
 
 model User {
-<<<<<<< HEAD
   id        String @id @default(uuid())
   githubId  Int    @unique
   name      String
@@ -24,12 +23,8 @@ model Memory {
 
   coverUrl  String
   content   String
-  isPublic  Boolean  @default(false)
+  isPublick Boolean  @default(false)
   createdAt DateTime @default(now())
 
   user User @relation(fields: [userId], references: [id])
-=======
-  id   String @id @default(uuid())
-  name String
->>>>>>> 7a56d27 (Aula 01)
 }
