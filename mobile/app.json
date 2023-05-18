@@ -2,10 +2,7 @@
   "expo": {
     "name": "mobile",
     "slug": "mobile",
-<<<<<<< HEAD
     "scheme": "nlwspacetime",
-=======
->>>>>>> 7a56d27 (Aula 01)
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

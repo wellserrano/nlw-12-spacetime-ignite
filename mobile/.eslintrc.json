@@ -1,12 +1,8 @@
 {
   "extends": [
     "@rocketseat/eslint-config/react"
-<<<<<<< HEAD
   ],
   "rules": {
     "camelcase": "off"
   }
-=======
-  ]
->>>>>>> 7a56d27 (Aula 01)
 }
