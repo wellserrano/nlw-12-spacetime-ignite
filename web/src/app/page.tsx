@@ -1,7 +1,23 @@
 export default function Home() {
   return (
-    <div className="h-screen bg-zinc-950 p-6 text-zinc-50">
-      <h1 className="text-4xl font-bold">Sua cápsula do tempo</h1>
+    <div className="grid min-h-screen grid-cols-2">
+      <div className="relative flex flex-col items-start justify-between overflow-hidden border-r border-white/10 bg-[url(../assets/bg-stars.svg)] bg-cover px-28 py-16">
+        {/* Blurred center background */}
+        <div className="absolute right-0 top-1/2 h-[18rem] w-[32.875rem] -translate-y-1/2 translate-x-1/2 rounded-full bg-purple-700 opacity-50 blur-full" />
+        {/* Stripes divisor */}
+        <div className="absolute bottom-0 right-2 top-0 w-2 bg-stripes" />
+      </div>
+
+      <div className="flex flex-col bg-[url(../assets/bg-stars.svg)] bg-cover p-16">
+        <div className="flex flex-1 items-center justify-center">
+          <p className="w-[22.5rem] text-center leading-relaxed">
+            Você ainda não registrou nenhuma lembrança, comece a{' '}
+            <a href="" className="underline hover:text-gray-50">
+              criar agora!
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
   )
 }
