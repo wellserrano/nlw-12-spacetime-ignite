@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { cookies } from 'next/headers'
 
 import { Copyright } from '@/components/Copyright'
@@ -29,5 +30,12 @@ export default function Home() {
         <EmptyMemories />
       </div>
     </main>
+=======
+export default function Home() {
+  return (
+    <div className="h-screen bg-zinc-950 p-6 text-zinc-50">
+      <h1 className="text-4xl font-bold">Sua cápsula do tempo</h1>
+    </div>
+>>>>>>> 7a56d27 (Aula 01)
   )
 }

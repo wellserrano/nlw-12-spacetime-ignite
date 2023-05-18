@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+<<<<<<< HEAD
       fontFamily: {
         sans: 'var(--font-roboto)',
         alt: 'var(--font-bai-jamjuree)',
@@ -66,6 +67,12 @@ module.exports = {
 
       blur: {
         full: '194px',
+=======
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+>>>>>>> 7a56d27 (Aula 01)
       },
     },
   },
