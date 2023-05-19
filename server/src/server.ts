@@ -14,7 +14,7 @@ app.register(cors, {
 })
 
 app.register(jwt, {
-  secret: 'spacetime',
+  secret: 'AOISFNYU98muisdfmsidfumn834tn872snmdfzfwef@#',
 })
 
 app.register(authRoutes)
