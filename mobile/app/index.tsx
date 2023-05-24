@@ -53,6 +53,7 @@ export default function App() {
 
       handleGithubOAuthCode(code)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [response])
 
   return (
